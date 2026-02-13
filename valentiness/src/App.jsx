@@ -4,11 +4,12 @@ import RevealPage from "./pages/RevealPage";
 
 function App() {
   return (
-    <Routes>
-      {/* Start directly at Vault */}
-      <Route path="/" element={<VaultPage />} />
-      <Route path="/reveal" element={<RevealPage />} />
-    </Routes>
+    <Router>
+      <Routes>
+        <Route path="/" element={<VaultPage />} />
+        <Route path="/reveal" element={<RevealPage />} />
+      </Routes>
+    </Router>
   );
 }
 
