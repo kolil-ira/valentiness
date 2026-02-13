@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import VaultPage from "./pages/VaultPage";
 import RevealPage from "./pages/RevealPage";
 
