@@ -64,7 +64,7 @@ export default function RevealPage() {
         {/* New romantic message */}
         <h2 className="text-2xl text-red-600 font-semibold mb-4" style={{ lineHeight: "1.4" }}>
           💌 Hey {partnerName}! 💕 <br />
-        { /* /{yourName}’s*/} My heart is all yours… <br /> 
+        { /* /{yourName}’s*/} MY heart is all yours… <br /> 
           Will you be my Valentine? 💖
         </h2>
 
